@@ -4,6 +4,10 @@
 
 This project is a Spring Boot application that demonstrates the use of GitHub Actions for continuous integration and continuous deployment (CI/CD). It includes a basic REST controller that returns a greeting message. The project automates the building, testing, and deployment processes using Maven and Docker.
 
+## Architecture
+
+![Architecture](images/GitHubActionsCICD.jpg)
+
 ## GitHub Actions Workflow
 
 The CI/CD process is managed using a GitHub Actions workflow defined in the `.github/workflows/maven.yml` file. The workflow triggers on push or pull requests to the `main` branch. It performs the following steps:
