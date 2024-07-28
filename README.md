@@ -32,11 +32,13 @@ The `Dockerfile` is configured to perform the following:
 
 ## Running Locally With Docker
 
+Perfrom the below steps when all the above mentioned steps are done. Because we are trying to pull the latest image after making the GitHub actions push our image to the docker hub.
+
 To run the application locally using Docker, follow these steps after ensuring Docker is installed on your machine:
-1. Build the Docker image:
+1. Pull the Docker image:
    
    ```sh
-   docker build -t hkharikrishna62/springboot-github-actions-image
+   docker pull hkharikrishna62/springboot-github-actions-image
    ```
 2. Run the Docker container:
    
